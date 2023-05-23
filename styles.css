@@ -1,0 +1,44 @@
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .big-font {
+      font-size: 60px;
+    }
+    .small-font {
+        font-size: 40px;
+    }
+    .table-font {
+        font-size: 20px;
+    }
+    .photoDiv {
+      max-width: 40%;
+      margin: 1vw;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .big-font {
+        font-size: 40px;
+      }
+    .small-font {
+        font-size: 20px;
+      }
+    .table-font {
+      font-size: 12px;
+    }
+    .photoDiv {
+      max-width: 80%;
+      margin: 2vw;
+    }
+  }
+
+  .main-font {
+    color: #E85A4F;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+  }
+
+  .secondary-font {
+    color: #8E8D8A;
+    text-align: center;
+  }
