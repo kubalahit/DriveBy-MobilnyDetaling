@@ -4,7 +4,6 @@ function handleCallButtonClick(event) {
       var contactSection = document.getElementById('Kontakt');
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
-    console.log('Call button clicked!');
   }
   
   // Function to check if the device is a mobile device
