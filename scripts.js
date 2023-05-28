@@ -1,13 +1,16 @@
-// scripts.js
-
-// Function to handle the click event of the "Call us" button
 function handleCallButtonClick(event) {
     event.preventDefault();
   
-    if (!(/Mobi|Android/i.test(navigator.userAgent))) {
-      var contactSection = document.getElementById('contact-section');
+    if (!isMobileDevice()) {
+      var contactSection = document.getElementById('Kontakt');
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
+    console.log('Call button clicked!');
+  }
+  
+  // Function to check if the device is a mobile device
+  function isMobileDevice() {
+    return /Mobi|Android/i.test(navigator.userAgent);
   }
   
   // Function to initialize all the event listeners

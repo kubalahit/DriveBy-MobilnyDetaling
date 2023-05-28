@@ -28,7 +28,6 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
-    <script src="/scripts.js"></script>
   </head>
 
   <body id="Start" style="background-color: #000000">
@@ -90,9 +89,18 @@
     <br />
     <br /> -->
 
-    <div class="d-flex justify-content-center align-items-center custom-vh">
+    <!-- <div class="d-flex justify-content-center align-items-center custom-vh">
       <img class="img-scale-to-div" src="photos/Mobilny Detaling Blue.png" />
-    </div>
+    </div> -->
+
+    <div class="d-flex flex-column justify-content-center align-items-center custom-vh">
+        <img class="img-scale-to-div" src="photos/Mobilny Detaling Blue.png" />
+        <div class="d-flex mt-4 container-fluid">
+          <a href="tel:888369388" id="call-button" class="anchor-text btn btn-primary button-start">Zadzwoń do nas</a>
+          <div class="w-25"></div>
+          <a href="#O-nas" class="button-start btn btn-primary anchor-text">O nas</a>
+        </div>
+      </div>
 
     <div id="O-nas" class="container section-offset">
       <p
@@ -187,7 +195,7 @@
     </div>
     <br />
     <br />
-    <div class="container-fluid" style="background-color: #36adfc">
+    <div class="container-fluid" id="Kontakt" style="background-color: #36adfc">
       <div class="container">
         <div class="row p-5">
           <div class="col-4 text-center">
@@ -202,6 +210,7 @@
         </div>
       </div>
     </div>
+    <script src="scripts.js"></script>
     <!-- <div class="container-fluid">
             <img src="photos/background-photo.jpg" class="col-12" style="height: 600px;">
         </div> -->
