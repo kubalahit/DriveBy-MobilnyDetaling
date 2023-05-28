@@ -1,7 +1,6 @@
 function handleCallButtonClick(event) {
-    event.preventDefault();
-  
     if (!isMobileDevice()) {
+      event.preventDefault();
       var contactSection = document.getElementById('Kontakt');
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
