@@ -28,7 +28,7 @@ body {
 .custom-vh {
   height: calc(100vh - var(--navbar-height));
   padding-top: var(--navbar-height);
-  padding-bottom: var(--navbar-height);
+  /* padding-bottom: var(--navbar-height); */
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -74,7 +74,7 @@ body {
   .anchor-text {
     color: white;
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
   }
 }
 
@@ -101,5 +101,5 @@ body {
 }
 
 .button-start {
-  width: 30%;
+  width: 45%;
 }
