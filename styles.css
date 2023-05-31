@@ -15,12 +15,6 @@ body {
   min-height: 100vh;
   padding: var(--navbar-height) 0 0;
   margin: 0;
-  background-image: url(photos/background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-
 }
 
 .container-fluid {
@@ -60,6 +54,14 @@ body {
     width: 100%;
     height: 35vw;
   }
+
+  body {
+  background-image: url(photos/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -89,6 +91,13 @@ body {
     width: 100%;
     height: 75vw;
   }
+  body {
+    background-image: url(photos/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    }
 }
 
 .main-font {
@@ -117,4 +126,10 @@ body {
 .button-start {
   width: 25%;
   background-color: #36adfc;
+}
+
+.white-toggler {
+  color: white; /* Sets the text color to white */
+  background-color: white; /* Sets the background color to white */
+  border-color: white; /* Sets the border color to white */
 }
