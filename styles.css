@@ -128,12 +128,6 @@ body {
   background-color: #36adfc;
 }
 
-.white-toggler {
-  color: white; /* Sets the text color to white */
-  background-color: white; /* Sets the background color to white */
-  border-color: white; /* Sets the border color to white */
-}
-
 .background-image {
   position: fixed;
   top: 0;
