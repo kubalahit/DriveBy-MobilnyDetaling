@@ -41,6 +41,9 @@ body {
   .table-font {
     font-size: 20px;
   }
+  .title-font {
+    font-size: 20px;
+  }
   .footer {
     font-size: 10px;
   }
@@ -57,14 +60,6 @@ body {
     width: 100%;
     height: 35vw;
   }
-
-  /* body {
-  background-image: url(photos/background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  } */
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -73,10 +68,13 @@ body {
     font-size: 40px;
   }
   .small-font {
-    font-size: 20px;
+    font-size: 15px;
   }
   .table-font {
     font-size: 12px;
+  }
+  .title-font {
+    font-size: 15px;
   }
   .footer {
     font-size: 6px;
@@ -97,13 +95,6 @@ body {
     width: 100%;
     height: 75vw;
   }
-  /* body {
-    background-image: url(photos/background-mobile.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    } */
 }
 
 .main-font {
@@ -150,4 +141,50 @@ body {
   /* Add necessary styles for your content */
   position: relative;
   z-index: 1; /* Ensure the content appears above the background */
+}
+
+.navbar {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(66, 65, 65, 0.8));
+}
+
+.navbar-collapse {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(66, 65, 65, 0.8));
+  transition: height 0.5s ease;
+  overflow: hidden;
+}
+
+.navbar-toggler {
+  z-index: 1;
+}
+
+.navbar-toggler.collapsed {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    background: none;
+  }
+
+  .navbar-collapse {
+    background: none;
+    height: auto !important;
+    overflow: visible !important;
+    transition: none;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
