@@ -37,7 +37,7 @@ body {
     font-size: 60px;
   }
   .small-font {
-    font-size: 40px;
+    font-size: 30px;
   }
   .table-font {
     font-size: 20px;
@@ -95,6 +95,7 @@ body {
 .secondary-font {
   color: #ffffff;
   text-align: center;
+  font-family: 'Outfit', sans-serif;
 }
 
 .img-scale-to-div
