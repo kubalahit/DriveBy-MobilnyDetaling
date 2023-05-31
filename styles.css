@@ -55,13 +55,13 @@ body {
     height: 35vw;
   }
 
-  body {
+  /* body {
   background-image: url(photos/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  }
+  } */
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -91,13 +91,13 @@ body {
     width: 100%;
     height: 75vw;
   }
-  body {
+  /* body {
     background-image: url(photos/background-mobile.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    }
+    } */
 }
 
 .main-font {
@@ -132,4 +132,22 @@ body {
   color: white; /* Sets the text color to white */
   background-color: white; /* Sets the background color to white */
   border-color: white; /* Sets the border color to white */
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(photos/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.content {
+  /* Add necessary styles for your content */
+  position: relative;
+  z-index: 1; /* Ensure the content appears above the background */
 }
